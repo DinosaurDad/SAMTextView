@@ -3,6 +3,9 @@ import PackageDescription
 
 let package = Package(
     name: "SAMTextView",
+    platforms: [
+      .iOS(.v12)
+    ],
     products: [
         .library(
           name: "SAMTextView",
